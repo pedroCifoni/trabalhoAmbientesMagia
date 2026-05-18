@@ -1,0 +1,17 @@
+{
+  "name": "wizard-duel-v2",
+  "version": "2.0.0",
+  "description": "Card game Harry Potter com draft e batalha por feitiços",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
