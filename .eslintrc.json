@@ -1,7 +1,11 @@
 {
-    "rules": {},
+    "rules": {
+        "no-console": "off",
+        "import/prefer-default-export": "off"
+    },
     "env": {
         "node": true,
+        "browser": true,
         "es2021": true
     },
     "extends": "airbnb-base"
